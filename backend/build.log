@@ -1,0 +1,39 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.example:government-subsidy-system >----------------
+[INFO] Building Government Subsidy / Grant Disbursement Tracking System 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ government-subsidy-system ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ government-subsidy-system ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 112 source files with javac [debug release 21] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/puneeth/IdeaProjects/government-subsidy-system/backend/src/main/java/com/example/governmentsubsidy/entity/ApplicationDocument.java:[13,34] <identifier> expected
+[ERROR] /home/puneeth/IdeaProjects/government-subsidy-system/backend/src/main/java/com/example/governmentsubsidy/entity/ApplicationDocument.java:[14,25] <identifier> expected
+[ERROR] /home/puneeth/IdeaProjects/government-subsidy-system/backend/src/main/java/com/example/governmentsubsidy/entity/ApplicationDocument.java:[14,31] <identifier> expected
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.515 s
+[INFO] Finished at: 2026-09-15T15:25:36+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project government-subsidy-system: Compilation failure: Compilation failure: 
+[ERROR] /home/puneeth/IdeaProjects/government-subsidy-system/backend/src/main/java/com/example/governmentsubsidy/entity/ApplicationDocument.java:[13,34] <identifier> expected
+[ERROR] /home/puneeth/IdeaProjects/government-subsidy-system/backend/src/main/java/com/example/governmentsubsidy/entity/ApplicationDocument.java:[14,25] <identifier> expected
+[ERROR] /home/puneeth/IdeaProjects/government-subsidy-system/backend/src/main/java/com/example/governmentsubsidy/entity/ApplicationDocument.java:[14,31] <identifier> expected
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
